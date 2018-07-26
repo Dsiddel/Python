@@ -49,7 +49,7 @@
         True
         not 1 == 1
         False
-# Conditional Statement
+# Conditional Statements
     # if - same as powershell stuff
         if 8 < 9:
             print "Eight is less than nine!"
@@ -65,5 +65,8 @@
             print "I get printed!"
         else:
             print "I also don't get printed!"
-
+    # for - similar to powershell but with different syntax
+        my_list = [1,9,3,8,5,7]
+        for number in my_list:
+            print number * 2
     
