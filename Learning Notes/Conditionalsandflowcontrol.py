@@ -69,4 +69,18 @@
         my_list = [1,9,3,8,5,7]
         for number in my_list:
             print number * 2
+# loops
+    # while loops, similar to if, except continues while something is true until it's not
+        while count < 10:
+            print "Hello, I am a while and count is", count
+            count += 1
+    # for loops, similar to if. works based on a condition
+
+# Breaks
+    # breaks are a way to get out of a loop regardless of the condition
+        while count < 10:
+            print "Hello, I am a while and count is", count
+            count += 1
+            break
+    
     

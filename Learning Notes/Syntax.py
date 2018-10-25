@@ -25,6 +25,8 @@
                         # 03 - 06 - 2019
     # adding other strings
         print "Hello" + "World"
+    # concatinating strings
+        print "word" += "hello"
 #Variables
     # creating a variable
         variable = "23" #gives a string
@@ -116,6 +118,26 @@
         variable = raw_input("Enter something here: ")
     # get float input from user
         variable = float(raw_input("What's the number"))
-
-
-    
+# bitwise operators
+    # shorthand for the above
+        print 5 >> 4  # Right Shift
+        print 5 << 1  # Left Shift
+        print 8 & 5   # Bitwise AND
+        print 9 | 4   # Bitwise OR
+        print 12 ^ 42 # Bitwise XOR
+        print ~88     # Bitwise NOT
+# The base 2 number system
+    print 0b1,    #1
+    print 0b10,   #2
+    print 0b11,   #3
+    print 0b100,  #4
+    print 0b101,  #5
+    print 0b110,  #6
+    print 0b111   #7
+    print "******"
+    print 0b1 + 0b11
+    print 0b11 * 0b11
+# bin()
+    this turns an integer into binary
+    print bin(1)
+    gives you 0b1

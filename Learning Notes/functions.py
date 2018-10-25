@@ -34,6 +34,9 @@
         print type(42) # = int
         print type(5.5) # = float
         print type("asd") # = str
-
+# lambda's - a quick function
+    # syntax - this takes variable x, sets conditional as if it = pythin and runs through a list called "languages"
+    print filter(lambda x: x == "Python", languages)
+    #
 
 
